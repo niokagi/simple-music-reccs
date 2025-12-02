@@ -1,9 +1,6 @@
 # Simple Music Recommendation
 
-An experimental project exploring music recommendations based on "Audio DNA" rather than just popularity
-Most recommendation systems are heavily biased towards what's trending. This project takes a different approach: it treats music as **mathematical data**.
-
-By analyzing intrinsic audio features (like `loudness`, `energy`, `valence`, and `acousticness`), this engine attempts to find songs that *feel* the same, regardless of whether they are global hits or hidden gems. It uses a **Weighted K-Nearest Neighbors (KNN)** algorithm with a custom logic layer to ensure the recommendations make sense musically and historically.
+An experimental project exploring music recommendations based on "Audio DNA" by analyzing intrinsic audio features (like `loudness`, `energy`, `valence`, and `acousticness`), this engine attempts to find songs that *feel* the same, regardless of whether they are global hits or hidden gems. It uses a **Weighted K-Nearest Neighbors (KNN)** algorithm with a custom logic layer to ensure the recommendations make sense musically and historically.
 
 ## Getting Started
 
